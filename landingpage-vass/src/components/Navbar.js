@@ -1,5 +1,6 @@
 import '../styles/home.scss';
 import Logo from '../assets/logo-vass-blanco.png';
+
 const Navbar=() => {
   return (
    
