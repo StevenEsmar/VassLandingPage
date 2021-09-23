@@ -1,0 +1,29 @@
+$bp-tablet: 768px;
+$bp-mobile: 320px;
+
+.bg-dark{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: transparent !important;
+}
+
+.bg-dark.scrolled{
+    background-color: #141414 !important;
+    transition: background-color 200ms linear;
+}
+.nav-link.search{
+    cursor: pointer;
+}
+.nav_down{
+    width: 100%;
+    background-color: red;
+}
+
+@media (max-width: $bp-tablet) {
+    .bg-dark{
+    
+        background-color: #141414 !important;
+    }
+}
